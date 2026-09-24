@@ -1,0 +1,6 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="10" fill="#0B1F33"/>
+  <path d="M24 9.5C33.1 9.5 40.5 16.9 40.5 26C40.5 35.1 33.1 42.5 24 42.5C14.9 42.5 7.5 35.1 7.5 26C7.5 16.9 14.9 9.5 24 9.5Z" stroke="#C9971F" stroke-width="1.6"/>
+  <path d="M17.6 20.6C19.4 18.2 22.4 16.8 24 16.8C25.6 16.8 28.6 18.2 30.4 20.6C29.6 20.1 27.6 19.4 24 19.4C20.4 19.4 18.4 20.1 17.6 20.6Z" fill="#C9971F"/>
+  <text x="24" y="32.5" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#F6E6B8" letter-spacing="0.5">OAD</text>
+</svg>

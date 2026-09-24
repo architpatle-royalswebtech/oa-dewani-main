@@ -1,0 +1,26 @@
+<svg width="540" height="72" viewBox="0 0 540 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="O A Dewani and Co Chartered Accountants">
+  <!-- "O A DEWANI & CO." — light outline style, large serif, mimicking the watermark effect -->
+  <text
+    x="270"
+    y="36"
+    text-anchor="middle"
+    font-family="'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, 'Times New Roman', serif"
+    font-size="38"
+    font-weight="300"
+    fill="#c8c8c8"
+    letter-spacing="6"
+    paint-order="stroke"
+  >O A DEWANI &amp; CO.</text>
+
+  <!-- "CHARTERED ACCOUNTANTS" — bold, dark, spaced sans-serif -->
+  <text
+    x="270"
+    y="62"
+    text-anchor="middle"
+    font-family="'Arial', 'Helvetica Neue', Helvetica, sans-serif"
+    font-size="13"
+    font-weight="700"
+    fill="#1a1a1a"
+    letter-spacing="7"
+  >CHARTERED ACCOUNTANTS</text>
+</svg>

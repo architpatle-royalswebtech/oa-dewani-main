@@ -1,0 +1,12 @@
+<svg width="2460" height="1260" viewBox="0 0 2460 1260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="2460" height="1260" fill="#0B1F33"/>
+  <rect x="60" y="60" width="2340" height="1140" rx="16" stroke="#C9971F" stroke-width="3" stroke-opacity="0.5"/>
+  <rect x="930" y="430" width="180" height="180" rx="36" fill="#142B47"/>
+  <path d="M1020 453C1074 453 1118 497 1118 551C1118 605 1074 649 1020 649C966 649 922 605 922 551C922 497 966 453 1020 453Z" stroke="#C9971F" stroke-width="6"/>
+  <path d="M984 475C1001 453 1011 445 1020 445C1029 445 1039 453 1056 475C1049 470 1031 463 1020 463C1009 463 991 470 984 475Z" fill="#C9971F"/>
+  <text x="1020" y="572" text-anchor="middle" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#F6E6B8">OAD</text>
+  <text x="1230" y="690" text-anchor="middle" font-family="Georgia, serif" font-size="82" font-weight="700" fill="#FFFFFF">O A Dewani &amp; Co.</text>
+  <text x="1230" y="752" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="500" fill="#C9971F" letter-spacing="11">CHARTERED ACCOUNTANTS</text>
+  <rect x="1030" y="800" width="400" height="4" rx="2" fill="#C9971F"/>
+  <text x="1230" y="850" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" fill="#A8B3C7">Audit &amp; Assurance  ·  Tax  ·  GST  ·  Advisory</text>
+</svg>

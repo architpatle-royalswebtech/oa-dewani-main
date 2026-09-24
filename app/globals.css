@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 40% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 40% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 40% 12%;
+
+    /* Primary — #0d1f3c */
+    --primary: 217 64% 14%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Secondary — #b8973a */
+    --secondary: 44 52% 47%;
+    --secondary-foreground: 217 64% 14%;
+
+    /* Brighter secondary for hover/highlights */
+    --secondary-bright: 44 70% 58%;
+
+    --muted: 220 16% 96%;
+    --muted-foreground: 215 14% 48%;
+
+    --accent: 44 70% 58%;
+    --accent-foreground: 217 64% 14%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 18% 90%;
+    --input: 220 18% 90%;
+    --ring: 217 64% 14%;
+
+    --chart-1: 217 64% 14%;
+    --chart-2: 44 52% 47%;
+    --chart-3: 174 62% 37%;
+    --chart-4: 210 80% 55%;
+    --chart-5: 27 90% 62%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-navy-900 font-sans antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-serif tracking-tight;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background-color: rgb(184 151 58 / 0.25);
+    color: #0d1f3c;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-narrow {
+    @apply mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-pad {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-secondary;
+  }
+
+  .eyebrow-light {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-secondary;
+  }
+
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-secondary-bright to-gold-600 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-navy {
+    @apply bg-gradient-to-br from-navy-900 to-navy-600 bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .bg-dots {
+    background-image: radial-gradient(
+      circle,
+      rgb(13 31 60 / 0.07) 1px,
+      transparent 1px
+    );
+    background-size: 24px 24px;
+  }
+
+  .bg-grid-light {
+    background-image:
+      linear-gradient(
+        to right,
+        rgb(255 255 255 / 0.05) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        to bottom,
+        rgb(255 255 255 / 0.05) 1px,
+        transparent 1px
+      );
+    background-size: 56px 56px;
+  }
+
+  .bg-grid {
+    background-image:
+      linear-gradient(
+        to right,
+        rgb(15 23 42 / 0.04) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        to bottom,
+        rgb(15 23 42 / 0.04) 1px,
+        transparent 1px
+      );
+    background-size: 56px 56px;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
