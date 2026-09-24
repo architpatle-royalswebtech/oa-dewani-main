@@ -13,7 +13,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { supabase } from '@/utils/supabase-client';
+// import { supabase } from '@/utils/supabase-client';
 import { services } from '@/utils/services-data';
 import { cn } from '@/lib/utils';
 
